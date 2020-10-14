@@ -13,7 +13,6 @@ app.post('/pay', async (req, res) => {
     amount: req.body.amount,
     currency: "cad",
     source: req.body.token,
-    receipt_email: 'hikkiabc@gmail.com'
   })
   res.send(data)
 })
